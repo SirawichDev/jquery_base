@@ -7,13 +7,13 @@
   
 }); */
 $(function(){
-    $(".image").click(function () {  
-        $(".image").hide();
+    $("button").click(function () {  
+        $(".image").toggle(1000);
     });
 });
 
 $(function(){
     $("button").click(function () {  
-        $("h1").css("color","pink");
+        $("h1").toggle().css("color","pink");
     });
 });
