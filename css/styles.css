@@ -1,3 +1,6 @@
+*{
+    margin: 0 auto;
+}
 body{
     background-color: rosybrown;
     color:white;
@@ -6,15 +9,16 @@ body{
     text-align: center;
 }
 
+
 .center button{
     padding: 20px;
     font-size: 20px;
     background-color: goldenrod;
 }
-.center .image{
+.image{
     background-image: url(../img/doggy.jpg);
     height: 500px;
-    position: right;
+    position: center;
     max-width: 600px;
     background-repeat: no-repeat;
 }
