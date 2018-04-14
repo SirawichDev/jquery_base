@@ -11,7 +11,7 @@ $(function(){
      /*    $(".image").toggle(1000);
         $(".image").hide(1000);
         $(".image").show(1000); */
-       $(".image").fadeOut(1000);
+        $(".image").fadeToggle(2000);
     });
 });
 /* 
